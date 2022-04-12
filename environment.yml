@@ -1,0 +1,22 @@
+name: mrsen05
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.7.*
+  
+  # General requirements for making plots and managing results
+  - pandas==1.*
+  - matplotlib==3.*
+  - scikit-learn==1.0.*
+  
+  # Putting Jupyter in this environment so we can run it locally
+  - jupyterlab
+  
+  # Key tools for software development
+  - pytest
+  
+  # Put any requirements from pypi here
+  - pip
+  - pip:
+      - jupyterlab-spellchecker
