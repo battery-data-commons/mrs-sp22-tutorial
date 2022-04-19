@@ -32,7 +32,7 @@ def plot_eis(frequencies, impedance, title=None, cmap='tab10'):
         impedance = np.vstack(impedance).transpose()
     
     # Bode Plot (1)
-    ax[0].loglog(frequencies, np.abs(impedance), "o")
+    ax[0].semilogx(frequencies, np.abs(impedance), "o")
     ax[0].set_title("Bode, |Z| vs. frequency")
     ax[0].set_xlabel("Freq [Hz]")
     ax[0].set_ylabel(r"|Z| [$\Omega$]", color="k")
