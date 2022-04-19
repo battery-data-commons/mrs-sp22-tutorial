@@ -15,6 +15,9 @@ dependencies:
   
   # Key tools for software development
   - pytest
+
+  # ML modeling
+  - xgboost
   
   # Put any requirements from pypi here
   - pip
