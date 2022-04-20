@@ -47,7 +47,7 @@ def plot_eis(frequencies, impedance, title=None, cmap='tab10'):
     ax[2].invert_yaxis()
     ax[2].set_title("Nyquist")
     ax[2].set_xlabel(r"Re(Z) [$\Omega$]", color="k")
-    ax[2].set_ylabel(r"-Im(Z) [$\Omega$]", color="k")
+    ax[2].set_ylabel(r"Im(Z) [$\Omega$]", color="k")
 
     if title is not None:
         fig.suptitle(title)
