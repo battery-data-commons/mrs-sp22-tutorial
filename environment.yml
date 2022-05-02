@@ -9,6 +9,7 @@ dependencies:
   - pandas==1.*
   - matplotlib==3.*
   - scikit-learn==1.0.*
+  - seaborn==0.11.*
   
   # Putting Jupyter in this environment so we can run it locally
   - jupyterlab
@@ -23,3 +24,4 @@ dependencies:
   - pip
   - pip:
       - jupyterlab-spellchecker
+      - tensorflow==2.8.*  # Needed for life prediction 
