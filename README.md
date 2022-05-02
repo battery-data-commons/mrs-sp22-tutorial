@@ -1,5 +1,28 @@
-# mrs-sp22-tutorial
+# MRS SP22 Tutorial
+
 Materials for a tutorial on Battery Data Science and MRS SP22
+
+## Using these tutorial materials
+
+These tutorials are designed to be run on cloud resources. 
+Simply click the following box to open the resources on Binder.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/battery-data-commons/mrs-sp22-tutorial/HEAD)
+
+A few of the examples are best run on systems with a GPU. You'll see links to running those examples on Google Colab where appropriate.
+
+### Local Installation
+
+There are plenty of good reasons to run these examples on your own compute.
+For example, using the cloud means that the results and any notes will disappear once you are done.
+
+The first step is to install [Anaconda](https://docs.conda.io/en/latest/miniconda.html) on your computer and then build the environment by calling the following command from the command line.
+
+```bash
+conda env create --file environment.yml --force
+```
+
+Once done installing, Anaconda will give you a command to activate the computation environment. Active then call `jupyter lab` to open Jupyter.
 
 ## Machine learning with battery data
 Tutorial instructor: Dr. Paul Gasper, Staff Scientist, National Renewable Energy Laboratory
