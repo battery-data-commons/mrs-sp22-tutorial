@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# this is also called a 'parity' plot
 def plotyy(y, y_pred, color=None, title=None):
     # Customize colors to match with capacity vs cycle plot earlier
     if color is not None:
@@ -24,11 +25,12 @@ def plotyy(y, y_pred, color=None, title=None):
     ax.set_ylim(lims)
     ax.set_autoscale_on(False)
     plt.plot([-100, 100], [-100,100], '--k')
-    # colorbar
-    cbar = plt.colorbar(sc)
-    tick_locs = (np.arange(n_series) + 1.5)*(n_series-1)/n_series
-    cbar.set_ticks(tick_locs)
-    cbar.set_ticklabels(np.arange(n_series)+1)
+    if n_series > 1:
+        # colorbar
+        cbar = plt.colorbar(sc)
+        tick_locs = (np.arange(n_series) + 1.5)*(n_series-1)/n_series
+        cbar.set_ticks(tick_locs)
+        cbar.set_ticklabels(np.arange(n_series)+1)
     # title
     if title is not None:
         plt.title(title)
