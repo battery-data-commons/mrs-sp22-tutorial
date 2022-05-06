@@ -29,10 +29,10 @@ Tutorial instructor: Dr. Paul Gasper, Staff Scientist, National Renewable Energy
 
 <img src="figures/eis_to_q.png" width="500"/>
 
-This tutorial walks through the development of a machine-learning model predicting battery capacity from electrochemical impedance spectroscopy data, illustrating basic machine-learning topics such as evaluating model fitness with train/test splits, feature engineering methods, model interrogation, and visualizing predictions using the sklearn library for model development and matplotlib for visualization. The tutorial will use open-source data from Zhang et al, *Nature Communications* (2020) 11:1706 ([paper](https://www.nature.com/articles/s41467-020-15235-7.pdf), [github](https://github.com/YunweiZhang/ML-identify-battery-degradation)). This tutorial uses the following files:
-- [eis/ml_predicting_capacity_with_eis.ipynb](/ml_predicting_capacity_with_eis.ipynb): Notebook for the tutorial
-- [eis/ml_predicting_capacity_with_eis_solutions.ipynb](/ml_predicting_capacity_with_eis_solutions.ipynb): Notebook with solutions to challenge problems
-- eis/eisplot.py: visualization function for plotting impedance data
-- eis/plotyy.py: visualization function for creating parity plots
-- eis/data/data_eis_zhang2020.csv: capacity and EIS measurements from 8 cells throughout their lifetime, from Zhang et al 2020 (see ref. above)
-- eis/data/freq_eis_zhang2020.csv: frequency vector for plotting impedance data
+This tutorial walks through the development of a machine-learning model predicting battery capacity from electrochemical impedance spectroscopy data, illustrating basic machine-learning topics such as evaluating model fitness with train/test splits, feature engineering methods, model interrogation, and visualizing predictions using the sklearn library for model development and matplotlib for visualization. The tutorial will use open-source data from Zhang et al, *Nature Communications* (2020) 11:1706 ([paper](https://www.nature.com/articles/s41467-020-15235-7.pdf), [github](https://github.com/YunweiZhang/ML-identify-battery-degradation)). This tutorial uses the following files in the 'predict_capacity_from_eis' folder:
+- [predict_capacity_from_eis/ml_predicting_capacity_with_eis.ipynb](/ml_predicting_capacity_with_eis.ipynb): Notebook for the tutorial
+- [predict_capacity_from_eis/ml_predicting_capacity_with_eis_solutions.ipynb](/ml_predicting_capacity_with_eis_solutions.ipynb): Notebook with solutions to challenge problems
+- eisplot.py: visualization function for plotting impedance data
+- plotyy.py: visualization function for creating parity plots
+- data/data_eis_zhang2020.csv: capacity and EIS measurements from 8 cells throughout their lifetime, from Zhang et al 2020 (see ref. above)
+- data/freq_eis_zhang2020.csv: frequency vector for plotting impedance data
