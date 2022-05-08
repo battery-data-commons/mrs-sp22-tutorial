@@ -1,4 +1,4 @@
-## Session 2: Analyzing and Manipulating Data with The PyData Stack
+## Analyzing and Manipulating Data with The PyData Stack
 
 Hello,
 
